@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/aqusha/DotaRandom/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
