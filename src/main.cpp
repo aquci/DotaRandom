@@ -1,5 +1,6 @@
 #include "BuildGenerator.hpp"
 #include "UI.hpp"
+#include "Utils.hpp"
 
 int main() {
     BuildGenerator generator;
@@ -7,6 +8,8 @@ int main() {
     int choice;
 
     do {
+        clearScreen();   // ← ВОТ ЭТО ДОБАВИТЬ
+
         choice = UI::showMenu();
 
         switch(choice) {
@@ -27,7 +30,11 @@ int main() {
                 break;
         }
 
-        UI::pause();
+        if(choice != 5) {
+            UI::pause();
+        }
 
     } while(choice != 5);
+
+    return 0;
 }

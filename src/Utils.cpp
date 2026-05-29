@@ -8,6 +8,7 @@ void clearScreen() {
 #ifdef _WIN32
     system("cls");
 #else
-    system("clear");
+    std::cout << "\033[2J\033[1;1H";
+    std::cout.flush();
 #endif
 }

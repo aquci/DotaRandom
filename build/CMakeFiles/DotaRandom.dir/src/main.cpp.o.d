@@ -113,4 +113,5 @@ CMakeFiles/DotaRandom.dir/src/main.cpp.o: \
  /usr/include/bits/types/error_t.h \
  /usr/include/c++/16.1.1/bits/charconv.h \
  /usr/include/c++/16.1.1/bits/basic_string.tcc \
- /home/aqusha/DotaRandom/include/UI.hpp
+ /home/aqusha/DotaRandom/include/UI.hpp \
+ /home/aqusha/DotaRandom/include/Utils.hpp
