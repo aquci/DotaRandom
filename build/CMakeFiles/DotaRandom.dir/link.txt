@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/DotaRandom.dir/link.d CMakeFiles/DotaRandom.dir/src/main.cpp.o CMakeFiles/DotaRandom.dir/src/DotaItem.cpp.o CMakeFiles/DotaRandom.dir/src/BuildGenerator.cpp.o CMakeFiles/DotaRandom.dir/src/ItemDatabase.cpp.o CMakeFiles/DotaRandom.dir/src/UI.cpp.o CMakeFiles/DotaRandom.dir/src/Utils.cpp.o -o DotaRandom
