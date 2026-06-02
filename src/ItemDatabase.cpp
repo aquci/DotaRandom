@@ -36,6 +36,8 @@ ItemDatabase::ItemDatabase() {
         physicalItems.push_back(DotaItem("monkey king bar", "weapon", 5000));
         physicalItems.push_back(DotaItem("hydra's breath", "weapon", 5900));
 
+        physicalItems.push_back(DotaItem("butterfly", "weapon", 5450));
+        physicalItems.push_back(DotaItem("eye of skadi", "armor", 5900));        
         physicalItems.push_back(DotaItem("assault cuirass", "armor", 5125));
         physicalItems.push_back(DotaItem("linkens sphere", "armor", 4800));
         physicalItems.push_back(DotaItem("satanic", "armor", 5050));
