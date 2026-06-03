@@ -8,7 +8,7 @@ int main() {
     int choice;
 
     do {
-        clearScreen();   // ← ВОТ ЭТО ДОБАВИТЬ
+        clearScreen();
 
         choice = UI::showMenu();
 
