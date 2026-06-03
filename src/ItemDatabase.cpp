@@ -29,14 +29,17 @@ ItemDatabase::ItemDatabase() {
         physicalItems.push_back(DotaItem("hand of midas", "farm", 2200));
         physicalItems.push_back(DotaItem("radiance", "farm", 4700));
 
+        physicalItems.push_back(DotaItem("moon shard", "weapon", 4000));
         physicalItems.push_back(DotaItem("daedalus", "weapon", 5100));
         physicalItems.push_back(DotaItem("revenant's brooch", "weapon", 3300));
         physicalItems.push_back(DotaItem("desolator", "weapon", 3500));
         physicalItems.push_back(DotaItem("divine rapier", "weapon", 5600));
         physicalItems.push_back(DotaItem("monkey king bar", "weapon", 5000));
         physicalItems.push_back(DotaItem("hydra's breath", "weapon", 5900));
-
         physicalItems.push_back(DotaItem("butterfly", "weapon", 5450));
+
+        physicalItems.push_back(DotaItem("mage slayer", "armor", 3100));
+        physicalItems.push_back(DotaItem("manta style", "armor", 4650));
         physicalItems.push_back(DotaItem("eye of skadi", "armor", 5900));        
         physicalItems.push_back(DotaItem("assault cuirass", "armor", 5125));
         physicalItems.push_back(DotaItem("linkens sphere", "armor", 4800));
@@ -46,7 +49,8 @@ ItemDatabase::ItemDatabase() {
         physicalItems.push_back(DotaItem("sange and yasha", "armor", 4200));
 
         //маг билд
-
+        
+        magicalItems.push_back(DotaItem("bloodstone", "magic", 4700));
         magicalItems.push_back(DotaItem("ethereal blade", "magic", 5200));
         magicalItems.push_back(DotaItem("octarine core", "magic", 4900));
         magicalItems.push_back(DotaItem("dagon", "magic", 7650));
@@ -56,6 +60,7 @@ ItemDatabase::ItemDatabase() {
         magicalItems.push_back(DotaItem("meteor hammer", "magic", 2850));
         magicalItems.push_back(DotaItem("khanda", "magic", 5600));
 
+        magicalItems.push_back(DotaItem("crella's crozier", "magicArmor", 4800));
         magicalItems.push_back(DotaItem("shivas guard", "magicArmor", 4500));
         magicalItems.push_back(DotaItem("kaya and sange", "magicArmor", 4200));
         magicalItems.push_back(DotaItem("wind waker", "magicArmor", 6800));
