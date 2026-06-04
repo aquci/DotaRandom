@@ -1,5 +1,4 @@
 #pragma once
-
 #include "ItemDatabase.hpp"
 #include "DotaItem.hpp"
 
