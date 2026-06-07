@@ -14,11 +14,11 @@ Generate random Dota 2 item builds.
 
 Linux
 
-git clone https://github.com/aquci/DotaRandom.git
+''git clone https://github.com/aquci/DotaRandom.git
 cd DotaRandom
 
 cmake -B build
-cmake --build build
+cmake --build build''
 
 ./build/DotaRandom
 
