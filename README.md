@@ -13,25 +13,21 @@ Generate random Dota 2 item builds.
 ## Build
 
 Linux
-
-''git clone https://github.com/aquci/DotaRandom.git
-cd DotaRandom
-
-cmake -B build
-cmake --build build''
-
-./build/DotaRandom
-
-Windows
-
+```
 git clone https://github.com/aquci/DotaRandom.git
 cd DotaRandom
-
 cmake -B build
 cmake --build build
-
+./build/DotaRandom
+```
+Windows
+```
+git clone https://github.com/aquci/DotaRandom.git
+cd DotaRandom
+cmake -B build
+cmake --build build
 .\build\Debug\DotaRandom.exe
-
+```
 ## Example
 
 Dota 2 magical build randomizer
