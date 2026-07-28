@@ -2,7 +2,7 @@
 
 ItemDatabase::ItemDatabase() {
         
-        //универссальные шмотки
+        //универссальные шмотки и ид
 
         universalItems.push_back(DotaItem("power treads", "boots", 1400));
         universalItems.push_back(DotaItem("phase boots", "boots", 1450));
